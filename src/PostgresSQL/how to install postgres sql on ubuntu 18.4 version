@@ -16,4 +16,23 @@ postgres-# \du
 postgres=# ALTER USER postgres WITH PASSWORD 'test123';
 ALTER ROLE
 
+----------------------------
+
+Update as on May 2019
+-----
+
+
+$ sudo apt-get update
+
+$ sudo apt-get install postgresql postgresql-contrib
+
+$ sudo su - postgres
+$ psql
+
+postgres-# \l
+
+postgres-# \du
+
+postgres=# ALTER USER postgres WITH PASSWORD 'test123';
+ALTER ROLE
 
