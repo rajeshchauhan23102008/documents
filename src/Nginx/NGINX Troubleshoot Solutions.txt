@@ -1,0 +1,10 @@
+NGINX Troubleshoot Solutions
+-----------------
+
+Turns out apache was running in the background and prevented nginx from starting on the desired port.
+
+On ubuntu run: 
+
+sudo /etc/init.d/apache2 stop
+
+-----------
